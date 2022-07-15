@@ -1,5 +1,5 @@
 {
-    "name": "xvlsgom",
+    "name": "yitrystred",
     "description": "xray websocket proxy on heroku",
     "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
     "env": {
@@ -9,19 +9,19 @@
         },
         "AUUID": {
             "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
-            "value": "e3682dbe-21c3-49e0-8a93-0e66010a6d7e"
+            "value": "8e8888ab-7511-4926-82c4-0fbc678e362d"
         },
         "CADDYIndexPage": {
-            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/Lbingyi/HerokuXray/blob/master/etc/CADDYIndexPage.md",
+            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/kopertete/yitrystred/blob/master/etc/CADDYIndexPage.md",
             "value": "https://github.com/wulabing/3DCEList/archive/master.zip"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/isfruitage/xvlsgom/main/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/kopertete/yitrystred/main/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/isfruitage/xvlsgom/main/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/kopertete/yitrystred/main/etc/xray.json"
         },
         "ParameterSSENCYPT": {
             "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
@@ -29,10 +29,10 @@
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
-            "value": "https://raw.githubusercontent.com/isfruitage/xvlsgom/main/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/kopertete/yitrystred/main/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/isfruitage/xvlsgom",
-    "repository": "https://github.com/isfruitage/xvlsgom",
+    "website": "https://github.com/kopertete/yitrystred",
+    "repository": "https://github.com/kopertete/yitrystred",
     "stack": "container"
 }
